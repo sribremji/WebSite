@@ -1,0 +1,49 @@
+skills:
+  entries:
+    Java: >
+      Designed and implemented enterprise-grade applications using Java, focusing on clean code principles and modular architecture.
+      Handled complex logic for reconciliation frameworks, optimized in-memory processing for millions of records, and improved performance using multithreading and efficient data structures.
+
+    Spring Boot: >
+      Developed RESTful microservices and batch processing systems with Spring Boot.
+      Integrated advanced middleware patterns, custom error handling, and implemented scalable service orchestration for data-heavy applications.
+
+    AWS: >
+      Architected and deployed production-ready solutions on AWS using EC2, Lambda, S3, and Route 53.
+      Focused on high availability, scalability, and security best practices through IAM policies, VPC design, and automated backup strategies.
+
+    Terraform: >
+      Created and maintained reusable Terraform modules for infrastructure provisioning across environments.
+      Streamlined DevOps workflows by enabling version-controlled infrastructure and automated change reviews.
+
+    Jenkins: >
+      Built and managed Jenkins pipelines to automate build, test, and deploy stages.
+      Reduced release time and manual intervention by integrating pipeline-as-code with advanced triggers and rollback mechanisms.
+
+    MongoDB: >
+      Implemented MongoDB as the primary NoSQL store for high-volume applications.
+      Designed optimized schemas, managed indexes, and integrated data replication and sharding for performance.
+
+    Redis: >
+      Used Redis for in-memory caching and rate-limiting.
+      Improved response times and reduced load on backend services by applying caching to API layers and batch operations.
+
+    CI/CD: >
+      Designed complete CI/CD pipelines integrating Git, Jenkins, and Concourse.
+      Enabled faster deployments, automated testing, and consistent delivery practices across microservice projects.
+
+    Go Lang: >
+      Wrote utility services and concurrent workers using Go, especially for CLI-based automation and infrastructure interaction.
+      Emphasized performance and simplicity while integrating Go programs into broader Java/Spring-based ecosystems.
+
+    Python: >
+      Developed automation scripts and data processing utilities using Python.
+      Utilized Python for log parsing, monitoring alert generation, and ETL tasks in DevOps toolchains.
+
+    Concourse: >
+      Built and maintained Concourse pipelines to manage infrastructure updates and deployment validations.
+      Utilized resource containers, triggers, and step-wise debugging for secure and isolated CI/CD flows.
+
+    Shell Scripting: >
+      Automated repetitive server maintenance and deployment tasks using bash scripts.
+      Interfaced with AWS CLI, Git, and Kubernetes using shell automation in CI/CD environments.
