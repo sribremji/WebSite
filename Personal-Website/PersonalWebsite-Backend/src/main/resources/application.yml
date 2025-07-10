@@ -1,0 +1,124 @@
+skills:
+  entries:
+    Java: >
+      - Designed and implemented enterprise-grade applications using Java, applying solid object-oriented programming principles and design patterns to ensure modularity and maintainability. Focused on building reusable code modules, writing robust unit tests, and maintaining consistent code quality across large-scale services.
+      
+      - Built a multithreaded reconciliation engine in Java capable of processing millions of financial records efficiently. Leveraged concurrent collections and thread pools to optimize in-memory data processing while maintaining thread safety and data integrity.
+
+      - Migrated legacy batch systems to modern Java-based microservices using Spring Boot, reducing execution time by over 30% and simplifying deployment processes.
+
+      - Created performance monitoring tools using Java and logging frameworks (SLF4J, Logback), which helped identify slow queries and bottlenecks, reducing average processing time significantly.
+
+      - Instrumented reconciliation logic to detect and report mismatches, contributing to a 25% improvement in data consistency audits.
+
+      - Replaced AWS Secrets Manager integration with Vault to improve secret management scalability and security.
+ 
+      - Implemented HashiCorp Vault agent to fetch dynamic secrets at runtime, eliminating long-lived credentials.
+ 
+      - Integrated Vault with Spring Boot applications using environment templates and token-based auth for zero manual secret handling.
+ 
+      - Simplified secret rotation and audit logging while reducing AWS cost associated with Secrets Manager.
+ 
+      - Achieved end-to-end integration with backend Oracle and MongoDB systems using JDBC and Spring Data APIs.
+
+      - Received internal recognition from LTIMindtree and Comcast for improving reconciliation accuracy and reducing processing time in Java-based services.
+    
+    SpringBoot: >
+      - Developed scalable RESTful microservices using Spring Boot, enabling modular and decoupled system design across various business domains.
+
+      - Configured custom exception handling, request validation, and global error responses using Spring Boot's controller advice and validation APIs.
+
+      - Leveraged Spring Boot Starter dependencies and auto-configuration to rapidly bootstrap applications with minimal boilerplate code.
+
+      - Built scheduled and batch jobs using Spring Boot's scheduling APIs and Spring Batch, reducing manual workload and improving operational efficiency.
+
+      - Utilized Spring Data JPA for seamless integration with relational databases, applying entity mappings, projections, and pagination effectively.
+
+      - Secured APIs using Spring Security with JWT tokens and role-based access control (RBAC) to protect sensitive endpoints.
+
+      - Implemented actuator endpoints and custom health checks for real-time monitoring and alerting with integration to tools like Prometheus and Grafana.
+
+      - Integrated Spring Boot services with MongoDB and Redis for hybrid persistence and caching strategies.
+
+      - Enabled rapid local development with embedded Tomcat, H2 database, and auto-reloading via Spring DevTools.
+
+      - Packaged applications as Docker containers and deployed to cloud platforms using CI/CD pipelines.
+    AWS: >
+      - Architected and deployed end-to-end cloud infrastructure using a wide range of AWS services including EC2, S3, Lambda, RDS, CloudFront, CloudWatch, ECS, Route 53, SNS, and IAM.
+
+      - Designed high-availability and auto-scaling application stacks using EC2 with Load Balancers and Auto Scaling Groups to ensure uptime and reliability.
+
+      - Used AWS Lambda extensively to create event-driven automation workflows and microservices for billing, monitoring, and alerting systems.
+
+      - Provisioned and managed S3 buckets for static site hosting, backups, and log storage, implementing lifecycle policies and encryption standards.
+
+      - Built scalable databases using Amazon RDS and Aurora with automatic failover, performance insights, and enhanced security groups.
+
+      - Implemented AWS CloudWatch for system-level and custom application monitoring with automated alarms and dashboards for observability.
+
+      - Configured ECS Fargate services to run Docker containers in a fully managed serverless architecture.
+
+      - Managed Route 53 for DNS configurations, domain routing, and failover policies with health checks and latency-based routing.
+
+      - Handled secret storage and environment configuration via AWS Systems Manager Parameter Store and Secrets Manager before migrating to Vault.
+    Terraform: >
+      - Built reusable and modular Terraform code to provision cloud infrastructure for multi-environment deployments (dev, QA, staging, prod).
+
+      - Automated provisioning of AWS resources such as VPCs, subnets, EC2 instances, S3 buckets, IAM roles, ECS clusters, RDS, and Lambda functions using Terraform modules.
+
+      - Integrated Terraform with Jenkins and Concourse CI/CD pipelines to trigger infrastructure changes via version-controlled Terraform plans.
+
+      - Used remote state backends like S3 with DynamoDB locking for consistency and multi-user safety.
+
+      - Implemented tagging strategies, variable validations, and output formatting in Terraform to maintain scalable and human-readable IaC.
+
+      - Conducted code reviews and integrated Sentinel policy checks to enforce governance before Terraform applies.
+
+      - Migrated manual infrastructure to IaC-managed Terraform workflows to reduce provisioning errors and standardize deployments.
+
+      - Enabled automatic rollbacks and recovery with Terraform destroy/apply sequences during staging deployments.- Built reusable and modular Terraform code to provision cloud infrastructure for multi-environment deployments (dev, QA, staging, prod).
+
+      - Automated provisioning of AWS resources such as VPCs, subnets, EC2 instances, S3 buckets, IAM roles, ECS clusters, RDS, and Lambda functions using Terraform modules.
+
+      - Integrated Terraform with Jenkins and Concourse CI/CD pipelines to trigger infrastructure changes via version-controlled Terraform plans.
+
+      - Used remote state backends like S3 with DynamoDB locking for consistency and multi-user safety.
+
+      - Implemented tagging strategies, variable validations, and output formatting in Terraform to maintain scalable and human-readable IaC.
+
+      - Conducted code reviews and integrated Sentinel policy checks to enforce governance before Terraform applies.
+
+      - Migrated manual infrastructure to IaC-managed Terraform workflows to reduce provisioning errors and standardize deployments.
+
+      - Enabled automatic rollbacks and recovery with Terraform destroy/apply sequences during staging deployments.
+    Jenkins: >
+      Built and managed Jenkins pipelines to automate build, test, and deploy stages.
+      Reduced release time and manual intervention by integrating pipeline-as-code with advanced triggers and rollback mechanisms.
+
+    MongoDB: >
+      Implemented MongoDB as the primary NoSQL store for high-volume applications.
+      Designed optimized schemas, managed indexes, and integrated data replication and sharding for performance.
+
+    Redis: >
+      Used Redis for in-memory caching and rate-limiting.
+      Improved response times and reduced load on backend services by applying caching to API layers and batch operations.
+
+    CICD: >
+      Designed complete CI/CD pipelines integrating Git, Jenkins, and Concourse.
+      Enabled faster deployments, automated testing, and consistent delivery practices across microservice projects.
+
+    GoLang: >
+      Wrote utility services and concurrent workers using Go, especially for CLI-based automation and infrastructure interaction.
+      Emphasized performance and simplicity while integrating Go programs into broader Java/Spring-based ecosystems.
+
+    Python: >
+      Developed automation scripts and data processing utilities using Python.
+      Utilized Python for log parsing, monitoring alert generation, and ETL tasks in DevOps toolchains.
+
+    Concourse: >
+      Built and maintained Concourse pipelines to manage infrastructure updates and deployment validations.
+      Utilized resource containers, triggers, and step-wise debugging for secure and isolated CI/CD flows.
+
+    Shell_Scripting: >
+      Automated repetitive server maintenance and deployment tasks using bash scripts.
+      Interfaced with AWS CLI, Git, and Kubernetes using shell automation in CI/CD environments.
